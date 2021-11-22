@@ -493,7 +493,7 @@ describe('DemoV2升级合约测试', () => {
    */
   it('increment计数器测试', async () => {
     const upgradeContractName = 'DemoV2' //升级合约的名称
-    const proxyContractAddress = this.demo.address //代理合约的名称
+    const proxyContractAddress = this.demo.address //代理合约的地址
     const DemoUpgrade = await ethers.getContractFactory(upgradeContractName) //工厂合约
     const demoV2 = await upgrades.upgradeProxy(proxyContractAddress, DemoUpgrade) //升级合约
     await this.demo.setScore(800) //设置score为800
