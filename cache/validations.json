@@ -1,0 +1,218 @@
+{
+  "version": "3.2",
+  "log": [
+    {
+      "Demo": {
+        "src": "contracts/Demo.sol:6",
+        "version": {
+          "withMetadata": "eca7f5cbee294eb345b94a8e4226ae4dbe8c2395ad88ef2e0acdeb6f28f3cfeb",
+          "withoutMetadata": "7900cfc4f7a1efd6e68ab96f13494b2adb7d990be93d84037641b6158ede990a",
+          "linkedWithoutMetadata": "7900cfc4f7a1efd6e68ab96f13494b2adb7d990be93d84037641b6158ede990a"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "setScore(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Demo",
+              "label": "score",
+              "type": "t_uint256",
+              "src": "contracts/Demo.sol:7"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "DemoV2": {
+        "src": "contracts/DemoV2.sol:6",
+        "version": {
+          "withMetadata": "6a477069220e057e11049868314b14f12df4d2064b8f24b35f1bdaf35784fed0",
+          "withoutMetadata": "8dec4b4e1ce71c5b377f1b0e1b35d2425f7ae557b7d3762a159db2005eb1a0d4",
+          "linkedWithoutMetadata": "8dec4b4e1ce71c5b377f1b0e1b35d2425f7ae557b7d3762a159db2005eb1a0d4"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "setScore(uint256)",
+          "increment()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "DemoV2",
+              "label": "score",
+              "type": "t_uint256",
+              "src": "contracts/DemoV2.sol:7"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "Demo": {
+        "src": "contracts/Demo.sol:6",
+        "version": {
+          "withMetadata": "80a8ad7842f65c33e328165acbed05a16ce4c23918a4e45ed4608bfcdf45f2e2",
+          "withoutMetadata": "7900cfc4f7a1efd6e68ab96f13494b2adb7d990be93d84037641b6158ede990a",
+          "linkedWithoutMetadata": "7900cfc4f7a1efd6e68ab96f13494b2adb7d990be93d84037641b6158ede990a"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "setScore(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Demo",
+              "label": "score",
+              "type": "t_uint256",
+              "src": "contracts/Demo.sol:7"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "Demo": {
+        "src": "contracts/Demo.sol:6",
+        "version": {
+          "withMetadata": "29caebe713294cc5a5cbf583094ff49d90c7fec12d9089d6d2014568a123b62e",
+          "withoutMetadata": "e35e2c9e31610feaa3258b22d4d9218c2211669392e552b824a848719ec2df2e",
+          "linkedWithoutMetadata": "e35e2c9e31610feaa3258b22d4d9218c2211669392e552b824a848719ec2df2e"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "setScore(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "state-variable-assignment",
+            "name": "score",
+            "src": "contracts/Demo.sol:7"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Demo",
+              "label": "score",
+              "type": "t_uint256",
+              "src": "contracts/Demo.sol:7"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "Demo": {
+        "src": "contracts/Demo.sol:6",
+        "version": {
+          "withMetadata": "0016b4e64ac9a9a676f9d32d5eaec54d16f537bcfd66aa4789451351bcf7827a",
+          "withoutMetadata": "ed8ae72aab5620dd46cf6bf7bb5e25c70a3d98575702cc80174895f332e9b913",
+          "linkedWithoutMetadata": "ed8ae72aab5620dd46cf6bf7bb5e25c70a3d98575702cc80174895f332e9b913"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "setScore(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "state-variable-assignment",
+            "name": "score",
+            "src": "contracts/Demo.sol:7"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Demo",
+              "label": "score",
+              "type": "t_uint256",
+              "src": "contracts/Demo.sol:7"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "Demo": {
+        "src": "contracts/Demo.sol:5",
+        "version": {
+          "withMetadata": "27e3a1115664c3be23b1945b05e57fe29b66e503993aacfe56eeb88c488ed05f",
+          "withoutMetadata": "b9f245ff8745b2079d4c39158a4b4dac12a26085b23a4dc48c63133c11843c89",
+          "linkedWithoutMetadata": "b9f245ff8745b2079d4c39158a4b4dac12a26085b23a4dc48c63133c11843c89"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "state-variable-assignment",
+            "name": "score",
+            "src": "contracts/Demo.sol:6"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Demo",
+              "label": "score",
+              "type": "t_uint256",
+              "src": "contracts/Demo.sol:6"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    }
+  ]
+}

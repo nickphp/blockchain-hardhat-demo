@@ -1,0 +1,15 @@
+(await demo.score()).toString()
+await demo.increment()
+(await demo.score()).toString()
+await demo.setScore(500)
+(await demo.score()).toString()
+exit
+(await demo.score()).toString()
+await demo.increment()
+(await demo.score()).toString()
+(await demo.retrieve()).toString()
+await demo.increment()
+const demo = await Demo.attach(proxyContractAddress)
+const Demo = await ethers.getContractFactory(upgradeContractName)
+const proxyContractAddress = '0x959922bE3CAee4b8Cd9a407cc3ac1C251C2007B1'
+const upgradeContractName = 'DemoV2'
